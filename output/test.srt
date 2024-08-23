@@ -1,0 +1,8 @@
+1
+0:00:00 --> 0:00:03
+ Hey buddy, I'm good. How are you?
+
+2
+0:00:04 --> 0:00:05
+ Good.
+

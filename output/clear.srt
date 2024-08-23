@@ -1,0 +1,16 @@
+1
+0:00:00 --> 0:00:03,6400
+ Okay, good, do you think it's a good day?
+
+2
+0:00:03,6400 --> 0:00:05,2000
+ Yes, it's a good day.
+
+3
+0:00:05,2000 --> 0:00:07,2400
+ Obviously, a good day.
+
+4
+0:00:07,2400 --> 0:00:07,7400
+ Ha ha.
+
