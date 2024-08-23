@@ -8,6 +8,9 @@ We super-strongly recommend users to use the `release` stable versions, for the 
 * 1. They have included inclusive models fine-tuned on multi-language datasets
 * 2. They have installed ffmpeg and other required env related tools
 * 3. When Python and Modules are ready, they are simply ready to use
+ 
+You can also build from source code, which will give you more freedom to do adjustments, including switching to other models and so. 
+But one thing to be kindly noted: please use numba<=0.58.0, otherwise a LLVM error may be raised.
 
 # How to use it?
 * Step 1) Install Python 3.7 and pip
