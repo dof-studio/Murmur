@@ -44,7 +44,7 @@ python pipeline.py <audio_file> <subtitle_file> [--model <model>] [--noise_reduc
 
 ## Example Command
 ```shell
-python pipeline.py "D:\ToolsPy\whispertxt\whispertxt 0.0.1\test\test.wav" "D:\ToolsPy\whispertxt\whispertxt 0.0.1\test\test.srt" --model medium --noise_reduction --nr_prop_decrease 0.9 --nr_stationary --subtitle_format srt
+python pipeline.py "..\\test\\test.wav" "..\\output\\test.srt" --model medium --noise_reduction --nr_prop_decrease 0.9 --nr_stationary --subtitle_format srt
 ```
 
 ## Input File Details
