@@ -1,9 +1,9 @@
-# Murmur
+# 1. Murmur
 Murmur is an AI Assistant who can generate subtitles for any kind of audio streams/files. Everything built in Python and easy to run.
 
 Its backend transcription model may be customizable, but we recommend `whisper` series from OpenAI.
 
-# Srouce code? Release?
+# 2. Srouce code? Release?
 We super-strongly recommend users to use the `release` stable versions for the following reasons:
 * 1. They have included inclusive models fine-tuned on multi-language datasets
 * 2. They have installed ffmpeg and other required env related tools
@@ -12,7 +12,7 @@ We super-strongly recommend users to use the `release` stable versions for the f
 You can also build from source code, which will give you more freedom to do adjustments, including switching to other models and so. 
 But one thing to be kindly noted: please use numba<=0.58.0, otherwise a LLVM error may be raised.
 
-# How to use it?
+# 3. How to use it?
 * Step 1) Install Python 3.7 and pip
 (find here https://www.python.org/downloads/)
 
@@ -24,7 +24,7 @@ But one thing to be kindly noted: please use numba<=0.58.0, otherwise a LLVM err
 
 * Step 4) Run pipeline script | or | Batch files
 
-# Arguments of the command line system
+# 4. Arguments of the command line system
 This command-line tool converts audio files to text and generates subtitle files in srt or ass format. The tool supports noise reduction and allows specifying different models for audio-to-text conversion.
 
 ## Usage
@@ -78,7 +78,7 @@ If the input is a single audio file: The generated subtitle file will be saved i
 If the input is a multitask .txt file: Multiple subtitle files will be generated according to the output paths specified in the .txt file.
 
 
-# About the author
+# 5. About the author
 Nathmath from DOF Studio, on Aug 22, 2024.
 
 Nathmath is/was a Master's student of NYU MSFE program.
