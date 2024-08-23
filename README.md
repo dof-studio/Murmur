@@ -27,5 +27,7 @@ But one thing to be kindly noted: please use numba<=0.58.0, otherwise a LLVM err
 # Arguments of the command line system
 
 # About the author
+Nathmath from DOF Studio, on Aug 22, 2024.
 
+Nathmath is/was a Master's student of NYU MSFE program.
 
