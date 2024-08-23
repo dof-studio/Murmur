@@ -1,0 +1,20 @@
+# We strongly recommend to use Python 3.7
+
+# Core dependencies
+numpy==1.21.6
+scipy==1.7.3
+torch==1.13.1
+transformers==4.30.2
+datasets== 2.13.2
+numba==0.56.4
+regex==2024.4.1
+argparse==1.1
+
+# Audio and video processing
+ffmpeg-python==0.2.0
+ffmpeg==1.4
+pydub==0.25.1
+librosa==0.10.2
+soundfile==0.12.0
+noisereduce==3.0.2
+moviepy==1.0.3
