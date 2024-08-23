@@ -59,8 +59,8 @@ C:\path\to\audio2.mp3
 
 2) Tuple Format: Each line can be a tuple with an input file and an output file, separated by |, with or without quotes.
 ```text
-"C:\path\to\audio3.ogg": "C:\path\to\output3.srt"
-C:\path\to\audio4.m4a: C:\path\to\output4.ass
+"C:\path\to\audio3.ogg" | "C:\path\to\output3.srt"
+C:\path\to\audio4.m4a | C:\path\to\output4.ass
 ```
 
 3) Comment Lines: Lines starting with # will be ignored.
