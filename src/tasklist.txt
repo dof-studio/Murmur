@@ -1,0 +1,17 @@
+###############################
+#
+# This is a template to use Murmur by giving a multi-task list
+# Comments will NOT be parsed so feel free to write here~
+
+# This is a comment: for an audio file and without specifying
+# src                        dest
+"..\\test\\test.wav" | "..\\output\\test_srt.srt"
+
+# Also a comment: for an video file with clear voice
+# src                           dest
+"..\\test\\clear.mp4" | "..\\output\\clear_srt.srt"
+
+# A comment again: for an video file with speech in background music
+# only src
+"..\\test\\nord.mkv" 
+
