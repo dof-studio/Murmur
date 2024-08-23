@@ -4,7 +4,7 @@ Murmur is an AI Assistant who can generate subtitles for any kind of audio strea
 Its backend transcription model may be customizable, but we recommend `whisper` series from OpenAI.
 
 # Srouce code? Release?
-We super-strongly recommend users to use the `release` stable versions, for the following two reasons:
+We super-strongly recommend users to use the `release` stable versions for the following reasons:
 * 1. They have included inclusive models fine-tuned on multi-language datasets
 * 2. They have installed ffmpeg and other required env related tools
 * 3. When Python and Modules are ready, they are simply ready to use
