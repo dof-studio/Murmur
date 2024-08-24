@@ -78,7 +78,10 @@ If the input is a single audio file: The generated subtitle file will be saved i
 If the input is a multitask .txt file: Multiple subtitle files will be generated according to the output paths specified in the .txt file.
 
 
-# 5. About the author
+# 5. Unfixed bugs
+* B060040: Filepaths do NOT support non-ASCII characters
+
+# 6. About the author
 Nathmath from DOF Studio, on Aug 22, 2024.
 
 Nathmath is/was a Master's student of NYU MSFE program.
