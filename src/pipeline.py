@@ -54,7 +54,7 @@ def working_pipeline(audio_file, subtitle_file, model_type = ["medium", "base", 
     # Note
     # The input: audio_file can be a .txt file, with the following format:
     # 1) each line points to an audio or video file, with filepath only (can either have " or not)
-    # 2) each line can be a tuple, with an input file and an output file (can either have " or not), while there is a : seperator
+    # 2) each line can be a tuple, with an input file and an output file (can either have " or not), while there is a | seperator
     # 3) each line can have a comment, starting with "#", which will be ignored
     # In this case, subtitle_file can be a path or anything. Output filepath in tuples will first be used,
     # and if only input paths, the folder of the subtitle_file will be used
