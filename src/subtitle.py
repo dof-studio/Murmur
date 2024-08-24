@@ -26,7 +26,7 @@ def convert_to_srt(transcriptions, output_file):
     input: transcriptions (list of dicts), output_file (str)
     output: None
     '''
-    with open(output_file, 'w') as file:
+    with open(output_file, 'w', encoding='utf-8') as file:
         for i, entry in enumerate(transcriptions):
             start, end = entry['timestamp']
             start_time = format_srt_timestamp(start)
@@ -60,7 +60,7 @@ def convert_to_ass(transcriptions, output_file):
     input: transcriptions (list of dicts), output_file (str)
     output: None
     '''
-    with open(output_file, 'w') as file:
+    with open(output_file, 'w', encoding='utf-8') as file:
         file.write("[Script Info]\n")
         file.write("Title: Subtitle\n")
         file.write("Original Script: ChatGPT\n")
