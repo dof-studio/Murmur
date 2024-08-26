@@ -79,7 +79,7 @@ If the input is a multitask .txt file: Multiple subtitle files will be generated
 
 
 # 5. Unfixed bugs
-* B060040: Filepaths do NOT support non-ASCII characters
+* B060040: Bash Filepaths do NOT support non-ASCII characters
 
 # 6. About the author
 Nathmath from DOF Studio, on Aug 22, 2024.
